@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run a one-line script
-        run: echo Hello from Octo Organization
+        run: echo Hello from Dino workflow
 
       - uses: carbohydrates/init-action@v3
         with:
