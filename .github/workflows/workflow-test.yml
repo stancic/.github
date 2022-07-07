@@ -1,6 +1,6 @@
 name: Next JS initialization
 
-on: repository_dispatch 
+on: workflow_call
 
 jobs:
   build:
