@@ -15,3 +15,10 @@ jobs:
 
       - name: Run a one-line script
         run: echo Hello from Octo Organization
+
+      - uses: carbohydrates/init-action@v3
+        with:
+          destroy_after_execution: 'false'
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: create next-app --typescript 
