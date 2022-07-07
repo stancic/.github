@@ -14,7 +14,7 @@ jobs:
 
       - uses: borales/actions-yarn@v3.0.0
         with:
-          cmd: create next-app --typescript 
+          cmd: create next-app --typescript \ ${{ github.event.repository.name }}
         
       - name: Disable this workflow
         shell: bash
